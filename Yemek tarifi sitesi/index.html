@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mutfakta Ne Var?</title>
+  
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #2d3748;
+      line-height: 1.6;
+    }
+
+    header {
+      background:  #355c7d;
+      color: #fdfcfb ;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+
+.intro {
+  background: #e8f4f8;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.intro h2 {
+  color: #355c7d;
+  margin-bottom: 1rem;
+}
+
+
+.intro p {
+  color: #2d3748;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.intro img {
+      max-width: 100%; 
+      height: auto; 
+      margin-top: 1rem; 
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto; 
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h1 {
+      margin-bottom: 1rem;
+      color: #355c7d;
+    }
+
+    .tarifler {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .tarif {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .tarif img {
+      max-width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .tarif h3 {
+      margin: 0;
+      padding: 1rem 0.5rem;
+      background:  #355c7d;
+      color: white;
+    }
+
+    .tarif p {
+      padding: 0.5rem 1rem;
+    }
+
+    .tarif a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      background:  #355c7d;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .tarif a:hover {
+      background: #e8643a;
+    }
+
+    footer {
+      text-align: center;
+      background: #355c7d;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mutfakta Ne Var?</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="popüler tarifler.html">Popüler Tarifler</a>
+      <a href="hakkinda.html">Hakkımızda</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Hoş Geldiniz!</h2>
+      <p>"Mutfakta Ne Var?", birbirinden lezzetli tarifleri bir araya getiren eşsiz bir yemek platformudur. Türk mutfağından dünya mutfağına kadar birçok tarifle sofralarınızı şenlendirebilirsiniz. Hangi malzemelerle ne yapacağınızı bilmiyorsanız, doğru yerdesiniz!</p>
+      <img src="anasayfa.jpg" alt="Mutfakta Ne Var? Ana Sayfa Görseli">
+   
+    </section>
+
+    
+
+    <section>
+      <h1>Yemekler:</h1>
+      <div class="tarifler">
+        <article class="tarif">
+          <img src="photos/karniyarik.jpg" alt="Karnıyarık">
+          <h3>Karnıyarık</h3>
+          <p>Türk mutfağının lezzetli klasiği.</p>
+          <a href="karniyarik.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/mercimek-corbasi.jpg" alt="Mercimek Çorbası">
+          <h3>Mercimek Çorbası</h3>
+          <p>Soğuk günlerin sıcak dostu.</p>
+          <a href="mercimek-corbasi.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/lahmacun.jpg" alt="Lahmacun">
+          <h3>Lahmacun</h3>
+          <p>Lezzetli, ince hamurlu kebap.</p>
+          <a href="lahmacun.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/tavuklu pilav.jpg" alt="Tavuklu Pilav">
+          <h3>Tavuklu Pilav</h3>
+          <p>Lezzetli ve doyurucu klasik.</p>
+          <a href="tavuklu pilav.html">Tarifi Gör</a>
+        </article>
+
+
+
+      </div>
+    </section>
+
+    <section>
+      <h1>Tatlılar:</h1>
+      <div class="tarifler">
+        <article class="tarif">
+          <img src="photos/revani.jpg" alt="Revani">
+          <h3>Revani</h3>
+          <p>Şerbetli tatlıların yıldızı.</p>
+          <a href="revani.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/Baklava.jpg" alt="Baklava">
+          <h3>Baklava</h3>
+          <p>Klasik Türk tatlısı.</p>
+          <a href="Baklava.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/aşure.jpg" alt="Aşure">
+          <h3>Aşure</h3>
+          <p>Geleneksel tatlı.</p>
+          <a href="aşure.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/Cheesecake.jpg" alt="Cheesecake">
+          <h3>Cheesecake</h3>
+          <p>Modern tatlı tercihi.</p>
+          <a href="Cheesecake.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/Sütlaç.jpg" alt="Sütlaç">
+          <h3>SÜtlaç</h3>
+          <p>Sütlaç.</p>
+          <a href="sütlaç.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/Nata.jpeg" alt="Nata">
+          <h3>Nata</h3>
+          <p>Nata.</p>
+          <a href="nata.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/Tiramisu.jpg" alt="Tiremusu">
+          <h3>Tiremusu</h3>
+          <p>Tiremusu.</p>
+          <a href="tiramisu.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/Makaron.jpeg" alt="Makaron">
+          <h3>Makaron</h3>
+          <p>Makaron.</p>
+          <a href="makaron.html">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/Magnolya.jpg" alt="Magnolya">
+          <h3>Magnolya</h3>
+          <p>Magnolya.</p>
+          <a href="magnolya.html ">Tarifi Gör</a>
+        </article>
+
+        <article class="tarif">
+          <img src="photos/Kabak_tatlısı.jpg" alt="Kabak tatlısı">
+          <h3>Kabak tatlısı</h3>
+          <p>Kış ayının en güzel lezzeti.</p>
+          <a href="kabak_tatlısı.html">Tarifi Gör</a>
+        </article>
+  
+  
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mutfakta Ne Var?. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>

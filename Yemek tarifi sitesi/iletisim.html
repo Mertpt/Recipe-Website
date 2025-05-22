@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim - Mutfakta Ne Var?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background-color: #355c7d;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    form label {
+      display: block;
+      margin: 0.5rem 0 0.2rem;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    form textarea {
+      height: 100px;
+    }
+    form button {
+      background-color: #355c7d;
+      color: white;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #e8643a;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #355c7d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>İletişim</h1>
+ 
+
+  </header>
+
+  <main>
+    <h2>Bize Ulaşın</h2>
+    <p>Aşağıdaki formu doldurarak bizimle iletişime geçebilirsiniz:</p>
+    <form action="#" method="post">
+      <label for="name">Adınız:</label>
+      <input type="text" id="name" name="name" placeholder="Adınızı yazın" required>
+
+      <label for="email">E-posta Adresiniz:</label>
+      <input type="email" id="email" name="email" placeholder="E-posta adresinizi yazın" required>
+
+      <label for="message">Mesajınız:</label>
+      <textarea id="message" name="message" placeholder="Mesajınızı yazın" required></textarea>
+
+      <button type="submit">Gönder</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mutfakta Ne Var?. Tüm hakları saklıdır. <a href="index.html">Ana Sayfa</a></p>
+  </footer>
+</body>
+</html>

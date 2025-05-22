@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popüler Tarifler - Mutfakta Ne Var?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background-color: #355c7d;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+    }
+    .tarifler {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .tarif {
+      text-align: center;
+      width: 300px;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .tarif img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .tarif h3 {
+      margin: 0;
+      padding: 1rem;
+      background-color: #355c7d;
+      color: white;
+    }
+    .tarif p {
+      padding: 1rem;
+    }
+    .tarif a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #355c7d;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+    .tarif a:hover {
+      background-color: #e8643a;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #355c7d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Popüler Tarifler</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="kategoriler.html">Kategoriler</a>
+      <a href="hakkinda.html">Hakkımızda</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>En Çok Sevilen Tarifler</h2>
+    <section class="tarifler">
+      <article class="tarif">
+        <img src="photos/karniyarik.jpg" alt="Karnıyarık">
+        <h3>Karnıyarık</h3>
+        <p>Türk mutfağının lezzetli klasiği.</p>
+        <a href="karniyarik.html">Tarifi Gör</a>
+      </article>
+
+      <article class="tarif">
+        <img src="photos/revani.jpg" alt="Revani">
+        <h3>Revani</h3>
+        <p>Şerbetli tatlıların yıldızı.</p>
+        <a href="revani.html">Tarifi Gör</a>
+      </article>
+
+      <article class="tarif">
+        <img src="photos/mercimek-corbasi.jpg" alt="Mercimek Çorbası">
+        <h3>Mercimek Çorbası</h3>
+        <p>Soğuk günlerin sıcak dostu.</p>
+        <a href="mercimek-corbasi.html">Tarifi Gör</a>
+      </article>
+
+      <article class="tarif">
+        <img src="photos/lahmacun.jpg" alt="Lahmacun">
+        <h3>Lahmacun</h3>
+        <p>En sevilen sokak lezzeti.</p>
+        <a href="lahmacun.html">Tarifi Gör</a>
+      </article>
+
+      <article class="tarif">
+        <img src="photos/aşure.jpg" alt="Aşure">
+        <h3>Aşure</h3>
+        <p>Paylaşmanın ve bereketin tatlısı.</p>
+        <a href="aşure.html">Tarifi Gör</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mutfakta Ne Var?. Tüm hakları saklıdır. <a href="index.html">Ana Sayfa</a></p>
+  </footer>
+</body>
+</html>
